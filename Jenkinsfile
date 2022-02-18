@@ -13,6 +13,7 @@ pipeline {
                jenkins/build/my-mvn.sh mvn -B -DskipTest clean package
                jenkins/build/build.sh
                echo "it's pushed from github"
+               echo "latest changing"
                '''
 
            }
